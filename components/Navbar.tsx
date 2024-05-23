@@ -100,10 +100,12 @@ function DesktopNavbar() {
 function NavbarItem({
   link,
   label,
+  // mobile navbar will close the menu when a route is clicked
   onClick,
 }: {
   link: string;
   label: string;
+  // mobile navbar will close the menu when a route is clicked
   onClick?: () => void;
 }) {
   //which route is active
